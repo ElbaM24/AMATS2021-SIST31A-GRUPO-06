@@ -1,0 +1,12 @@
+td{
+    margin: 5px;
+    padding: 10px;
+  }
+    table {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    width: auto;
+    margin-left: 10%;
+  }

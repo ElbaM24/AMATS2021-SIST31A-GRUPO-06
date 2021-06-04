@@ -1,0 +1,129 @@
+body {
+   background-image: url(../img/pupas9.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+  }
+  
+  .login-box {
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background: #187854;
+    color: #fff;
+    top: 50%;
+    left: 50%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  td{
+    margin: 10px;
+    padding: 10px;
+  }
+  .login-box label, .tabla1 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    width: auto;
+  }
+  .tabla1 td{
+    margin: 5px;
+    padding: 10px;
+  }
+    .tabla1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    width: auto;
+    margin-left: 10%;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .login-box select {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: white;
+     color:black;
+    font-size: 12px;
+    border-radius: 40px;
+ 
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #07c27a;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  /*agregue esto LUIGI*/
+  .login-box input[type="reset"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #a70038;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  /*HASTA AQUI*/
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: white;
+    color: #000;
+  }
+  /*agregue esto LUIGI*/
+  .login-box input[type="reset"]:hover {
+    cursor: pointer;
+    background: white;
+    color: #000;
+  }
+  /*HASTA AQUI*/
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+  }
+  
+  .login-box a:hover {
+    color: #187854;
+  }
+  
