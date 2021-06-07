@@ -10,8 +10,8 @@
  
 </head>
 <body>
-    <article>
-    <nav>
+<article>
+<nav>
         <ul>
             <li><a href="admin.php?pagina=cargo.php">Cargo</a></li>
             <li><a href="registro.php">Registro</a></li><!--agregue esto admin.php?-->
@@ -20,10 +20,10 @@
             <li><a href="admin.php?pagina=cliente.php">Clientes</a></li>
             <li><a href="admin.php?pagina=reportes.php">Reportes</a></li>
             <li><a href="admin.php?pagina=congfi.php">Configuraciones</a></li>
-
         </ul>
     </nav>
-    <?php
+
+<?php
         if(isset($_GET["pagina"])){
             include($_GET["pagina"]);
         }

@@ -10,8 +10,6 @@ $obj = new clsConexion();
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/tabla.css">
-
-    
   <title>Document</title>
 </head>
 
@@ -167,7 +165,7 @@ $tabla="
         <td>$fila[detalle_articulo]</td>
         <td>$$fila[precio_articulo]</td>
         <td>$fila[grupos]</td>
-        <td><a href='mod_productos.php?id_articulos_productos=$fila[id_articulos_productos]'>Modificar</a></td>
+        <td><a href='?pagina=mod_productos.php?id_articulos_productos=$fila[id_articulos_productos]'>Modificar</a></td>
         </tr>
         ";
   }
