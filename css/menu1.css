@@ -1,0 +1,137 @@
+*{/*margin:0;
+    padding:0;*/
+    box-sizing:border-box;
+    /*font-size:0;*/}
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+            
+nav li{
+      display:inline-block;
+      width:125px;
+      height:30px;
+      padding:5px 10px;
+      background-color:#8f9c56;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+nav li:hover{
+      background-color:#fff;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
+    /*aaaaa*/
+
+
+nav {
+	background-color: #187854;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	padding: 2px;
+	z-index: 999;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+    margin-bottom: 40px;
+   
+}
+
+
+
+
+.menu a {
+		font-size: 20px;
+	}
+
+/*parte de mi codigo*/
+.menu  li{
+    display: inline-block;
+    list-style: none;
+   
+}
+.menu li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1px 4px;
+    display: block;
+    text-align: center; /*NUEVO*/
+    transition: .5s; /*NUEVO HACE EFECTO DE TIEMPO EN EL TEXTO*/
+    /*border-radius: 10px;*/
+  
+}
+
+.menu ul li.active a{ /*NUEVO*/
+    color: white; /*NUEVO*/
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+
+.menu {
+
+	width: auto;
+	position: sticky;
+	top: 0;
+	padding: 2px;
+	z-index: 999;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+ 
+   
+}
+
+
+.menu a {
+		font-size: 20px;
+	}
+
+/*parte de mi codigo*/
+.menu  li{
+    display: inline-block;
+    list-style: none;
+   
+}
+.menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1px 4px;
+    display: block;
+    text-align: center; /*NUEVO*/
+    transition: .5s; /*NUEVO HACE EFECTO DE TIEMPO EN EL TEXTO*/
+    /*border-radius: 10px;*/
+  
+}
+
+.menu ul li.active a{ /*NUEVO*/
+    color: white; /*NUEVO*/
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+
+	

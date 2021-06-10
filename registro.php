@@ -7,13 +7,11 @@ $obj = new clsConexion();
   <head>
     <meta charset="utf-8">
     <title>PUPUSERIA LA PERLITA</title>
-    <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/tabla.css">
   </head>
   <body>
 
-    <div class="login-box">
-      <img src="img/pusas.jpg" class="avatar" alt="Avatar Image">
+    <div>
       <h1>Registrate</h1>
       <form method="post">
       <table border="0px" >
