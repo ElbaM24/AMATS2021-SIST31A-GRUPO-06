@@ -37,7 +37,7 @@ $obj = new clsConexion();
           <!-- GRUPO-->
           <td for="username"> Grupo
             <select name="grupo" >
-               <option value="0" selected>Seleccione su nivel de acceso</option>
+               <option value="0" selected>Seleccione su grupo alimenticio.</option>
                <option value="pupusas">Pupusas</option> 
                <option value="desayunos">Desayunos</option>
                <option value="bebidas">Bebidas</option>

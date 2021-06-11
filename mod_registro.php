@@ -86,18 +86,22 @@ $fila = $rs->fetch_assoc();
                ";
               $tabla = "cargo";
               $rs = $obj->consultaGeneral($tabla, $campos);
-              while ($fila2 = $rs->fetch_assoc()) {
-                  if($fila["id_cargo"]==$fila2["id_cargo"]){
-                    echo "
-                    <option value='$fila2[id_cargo]' selected>$fila2[cargo]</option> 
-                    ";
-                  }else{
-                    echo "
-                    <option value='$fila2[id_cargo]'>$fila2[cargo]</option> 
-                    ";
-                  }
+              while ($fila2 = $rs->fetch_assoc()) 
+                {
+                  if($fila["id_cargo"]==$fila2["id_cargo"])
+                    {
+                      echo "
+                      <option value='$fila2[id_cargo]' selected>$fila2[cargo]</option> 
+                      ";
+                    }
+                  else
+                    {
+                      echo "
+                      <option value='$fila2[id_cargo]'>$fila2[cargo]</option> 
+                      ";
+                    }
 
-              }
+                }
                ?>
            </select></td>
            </tr>
