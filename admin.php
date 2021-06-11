@@ -16,8 +16,9 @@
             <li><a href="admin.php?pagina=cargo.php">Cargo</a></li>
             <li><a href="admin.php?pagina=registro.php">Registro</a></li><!--agregue esto admin.php?-->
             <li><a href="admin.php?pagina=productos.php">Productos</a></li>
-            <li><a href="admin.php?pagina=pedidos.php">Pedidos</a></li>
             <li><a href="admin.php?pagina=cliente.php">Clientes</a></li>
+            <li><a href="admin.php?pagina=mesa.php">Mesas</a></li>
+            <li><a href="admin.php?pagina=pedidos.php">Pedidos</a></li>
             <li><a href="admin.php?pagina=reportes.php">Reportes</a></li>
             <li><a href="admin.php?pagina=congfi.php">Configuraciones</a></li>
         </ul>
